@@ -1,0 +1,109 @@
+/* Reset some default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, rgb(203, 208, 215), rgb(170, 180, 190));
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 3px solid #4a4a4a;
+}
+header h1 {
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    text-align: center;
+}
+.about img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.about .Mern {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Sections */
+section {
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #f8f9fa;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+h2 {
+    color: rgb(50, 70, 90);
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: square inside;
+    margin-left: 15px;
+    line-height: 1.6;
+}
+p, li {
+    font-size: 1rem;
+    color: #222;
+}
+
+/* Resume Link */
+.resume a {
+    display: inline-block;
+    background: #0077cc;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.resume a:hover {
+    background: #005fa3;
+}
+
+/* Contact */
+.contact a {
+    color: #0077cc;
+    text-decoration: none;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* About Me */
+.about-Me {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    padding:20px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
